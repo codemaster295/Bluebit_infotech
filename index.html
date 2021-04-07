@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>Moradiya Infotech</title>
+</head>
+<style>
+    .snap-x {
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .snap-start {
+        scroll-snap-align: start;
+    }
+</style>
+
+<body>
+    <header class=" fixed top-0 inset-x-0 z-50 py-5 md:bg-transparent">
+        <div class="container px-4 mx-auto">
+            <div class="flex flex-wrap items-center justify-between">
+                <img class="w-32 md:block hidden" src="images/logo-white.svg" alt="MEET" />
+                <img class="w-32 block md:hidden" src="images/logo-dark.svg" alt="MEET" />
+                <a href="javascript:void(0);" class="md:hidden" onclick="myFunction()">
+                    <img src="images/burger.svg" class="w-5">
+                </a>
+                <ul id="NavBar" class="w-full md:w-auto flex-wrap md:items-cente  font-bold  lg:text-base text-sm text-center hidden md:flex md:bg-none bg-gradient-to-r from-purple-400 via-blue-500 to-purple-800  ">
+                    <li class="px-3 w-full md:w-auto mb-2 md:mb-0 md:text-white text-white"><a class="block   py-2 border-transparent border-b-2   hover:border-white duration-500" href="index.html">HOME</a>
+                    </li>
+                    <li class="px-3 w-full md:w-auto mb-2 md:mb-0 md:text-white text-white"><a class="block  py-2 border-transparent border-b-2   hover:border-white duration-500" href="our_latest_work.html">OUR WORK</a>
+                    </li>
+                    <li class="px-3 w-full md:w-auto mb-2 md:mb-0 md:text-white text-white"><a class="block  py-2 border-transparent border-b-2   hover:border-white duration-500" href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li class="px-3 w-full md:w-auto mb-2 md:mb-0 md:text-white text-white"><a class="block  py-2 border-transparent border-b-2   hover:border-white duration-500" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="px-3 w-full md:w-auto mb-2 md:mb-0 md:text-white text-white"><a class="inline-block md:border-2 md:border-white border-2 border-dark  rounded-3xl px-4 py-2 border-transparent border-b-2   hover:border-whitenpm duration-500 hover:bg-white hover:text-dark md:hover:bg-white md:hover:text-dark transition delay-75"
+                            href="#home">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="banner bg-gradient-to-r from-purple-400 via-blue-500 to-purple-800 relative">
+        <div class="container mx-auto relative z-20">
+            <div class="flex flex-wrap">
+                <div class="flex w-full lg:w-1/2 flex-wrap">
+                    <div class="w-full">
+                        <div class="text-white lg:pt-52 pt-28 pb-2 lg:pb-64">
+                            <h1 class="mb-5 text-5xl tracking-widest font-light">We provide best solution</h1>
+                            <p class="mb-10 text-xl">We continuously generate innovative solutions for ourselves and our customers, question conventional methods, embrace new idea and think non-traditionally.</p>
+                            <a class="inline-block border-2 border-white text-white rounded-3xl px-10 py-2 hover:bg-white hover:text-dark transition delay-75" href="#home">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full  flex items-center justify-center flex-wrap">
+                    <div>
+                        <div class="flex  justify-center mx-auto text-center">
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex  justify-center mx-auto text-center">
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/7.png" alt="">
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a href="#" class="inline-block transform hover:-translate-y-4 transition-all delay-0 ease   duration-500 mx-auto">
+                                    <img class="w-full" src="images/8.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/bg-bottom.svg" class="w-full absolute bottom-0 inset-x-0 -mb-px z-10">
+        <img src="images/welcome.jpg" class="absolute w-full h-full object-cover top-0 left-0 opacity-20">
+    </div>
+    <!-- herosection -->
+    <div class="container mx-auto flex justify-around  flex-wrap h-full">
+        <div class="lg:w-1/2 w-full lg:px-36 mt-10 flex flex-col items-start justify-center">
+            <h2 class="font-regular text-3xl text-gray-500 mb-10">Moradiya Infotech- Stand Out On The World Wide Web</h2>
+            <p class="mb-10 text-gray-500 tracking-wider leading-7  font-medium text-sm ">Moradiya Infotech offers a comprehensive range of IT services to support Businesses Of all size</p>
+            <p class="mb-10 text-gray-500 tracking-wider leading-7  font-medium text-sm ">Our service portfolio includes Web Development, Web Designing, Mobile Apps Development, Internet Marketing, Content Development and Paid Search Marketing to name a few.</p> <a class="inline-block border-2 border-black   text-black rounded-3xl px-10 py-2 bg-gradient-to-r from-white to-white hover:text-white hover:from-purple-400 hover:via-blue-500 hover:to-purple-800 transition delay-150 duration-300 ease-in-out"
+                href="#home">Services</a>
+        </div>
+        <div class="lg:w-1/2 w-full flex flex-wrap justify-center items-center">
+            <div class="W-1/2 ml-auto">
+                <div class="flex items-center h-full flex-wrap md:flex-nowrap justify-center">
+                    <a href="#" class="inline-block h-full w-full py-5 transform md:translate-y-20">
+                        <div class="xl:w-3/4 w-full flex flex-col justify-center border-2 border-gray-100 h-full rounded-t-4xl rounded-bl-4xl px-10 py-10  bg-gradient-to-r from-white to-white hover:from-purple-400 hover:via-blue-500 hover:to-purple-800 text-gray-600 hover:text-white">
+                            <svg class="fill-current w-6 mb-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.867 477.867" style="enable-background:new 0 0 477.867 477.867;" xml:space="preserve">
+								<g>
+									<g>
+										<path d="M341.333,85.333H51.2c-28.277,0-51.2,22.923-51.2,51.2v290.133c0,28.277,22.923,51.2,51.2,51.2h290.133 c28.277,0,51.2-22.923,51.2-51.2V136.533C392.533,108.256,369.61,85.333,341.333,85.333z M358.4,426.667 c0,9.426-7.641,17.067-17.067,17.067H51.2c-9.426,0-17.067-7.641-17.067-17.067V136.533c0-9.426,7.641-17.067,17.067-17.067 h290.133c9.426,0,17.067,7.641,17.067,17.067V426.667z" />
+									</g>
+								</g>
+								<g>
+									<g>
+										<path d="M426.667,0h-307.2c-28.277,0-51.2,22.923-51.2,51.2c0,9.426,7.641,17.067,17.067,17.067S102.4,60.626,102.4,51.2 s7.641-17.067,17.067-17.067h307.2c9.426,0,17.067,7.641,17.067,17.067v307.2c0,9.426-7.641,17.067-17.067,17.067 s-17.067,7.641-17.067,17.067s7.641,17.067,17.067,17.067c28.277,0,51.2-22.923,51.2-51.2V51.2 C477.867,22.923,454.944,0,426.667,0z" />
+									</g>
+								</g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+							</svg>
+                            <h2 class="font-light text-2xl mb-5">Website Design And Development</h2>
+                            <p class=" font-medium text-sm   tracking-wider leading-7">Web Personality & Brand Out Of An Organisation</p>
+                        </div>
+                    </a>
+                    <a href="#" class="inline-block h-full w-full py-5 text-white  ">
+                        <div class="xl:w-3/4 w-full flex flex-col justify-center border-2 border-gray-100 h-full rounded-t-4xl rounded-bl-4xl px-10 py-10   bg-gradient-to-r from-purple-400 via-blue-500 to-purple-800 text-white ">
+                            <svg class="fill-current w-6 mb-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+								<g>
+									<circle cx="9" cy="15" r="1" />
+									<circle cx="15" cy="15" r="1" />
+									<circle cx="12" cy="12" r="1" />
+									<circle cx="21" cy="15" r="1" />
+									<circle cx="9" cy="9" r="1" />
+									<circle cx="15" cy="9" r="1" />
+									<circle cx="21" cy="9" r="1" />
+									<circle cx="18" cy="12" r="1" />
+									<circle cx="9" cy="21" r="1" />
+									<circle cx="15" cy="21" r="1" />
+									<circle cx="12" cy="18" r="1" />
+									<circle cx="21" cy="21" r="1" />
+									<circle cx="18" cy="18" r="1" />
+									<circle cx="24" cy="12" r="1" />
+									<circle cx="24" cy="18" r="1" />
+									<circle cx="24" cy="24" r="1" />
+									<circle cx="9" cy="27" r="1" />
+									<circle cx="15" cy="27" r="1" />
+									<circle cx="12" cy="24" r="1" />
+									<circle cx="21" cy="27" r="1" />
+									<circle cx="27" cy="15" r="1" />
+									<circle cx="27" cy="9" r="1" />
+									<circle cx="27" cy="21" r="1" />
+									<circle cx="30" cy="12" r="1" />
+									<circle cx="30" cy="18" r="1" />
+									<circle cx="30" cy="24" r="1" />
+									<circle cx="27" cy="27" r="1" />
+									<circle cx="33" cy="15" r="1" />
+									<circle cx="33" cy="9" r="1" />
+									<circle cx="33" cy="21" r="1" />
+									<circle cx="33" cy="27" r="1" />
+									<circle cx="18" cy="24" r="1" />
+									<circle cx="24" cy="30" r="1" />
+									<circle cx="9" cy="33" r="1" />
+									<circle cx="15" cy="33" r="1" />
+									<circle cx="12" cy="30" r="1" />
+									<circle cx="21" cy="33" r="1" />
+									<circle cx="30" cy="30" r="1" />
+									<circle cx="27" cy="33" r="1" />
+									<circle cx="33" cy="33" r="1" />
+									<circle cx="18" cy="30" r="1" />
+									<path d="M60,26v-8h-8v3H39V8h3V0h-8v3H8V0H0v8h3v26H0v8h8v-3h13v13h-3v8h8v-3h26v3h8v-8h-3V26H60z M8,37v-3H5V8h3V5h26v3h3v13v13 h-3v3H21H8z M55,52h-3v3H26v-3h-3V39h11v3h8v-8h-3V23h13v3h3V52z" />
+								</g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+							</svg>
+                            <h2 class="font-light text-2xl mb-5">Website Design And Development</h2>
+                            <p class=" font-medium text-sm   tracking-wider leading-7">Web Personality & Brand Out Of An Organisation</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="W-1/2 ml-auto">
+                <div class="flex items-center h-full flex-wrap md:flex-nowrap justify-center">
+                    <a href="#" class="inline-block h-full w-full py-5 transform md:translate-y-20">
+                        <div class="xl:w-3/4 w-full flex flex-col justify-center border-2 border-gray-100 h-full rounded-t-4xl rounded-bl-4xl px-10 py-10  bg-gradient-to-r from-white to-white hover:from-purple-400 hover:via-blue-500 hover:to-purple-800 text-gray-600 hover:text-white">
+                            <svg class="fill-current w-6 mb-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30.462px" height="30.461px" viewBox="0 0 30.462 30.461" style="enable-background:new 0 0 30.462 30.461;"
+                                xml:space="preserve">
+								<g>
+									<path d="M16.109,13.997l-4.312-4.479L1.426,20.058L0,18.656L11.812,6.651l4.354,4.522l7.49-7.172l-2.146-2.145h5.603v5.601 L25.07,5.415L16.109,13.997z M4.962,28.606h6.75v-9.5h-6.75V28.606z M14.337,28.606h6.75v-12.5h-6.75V28.606z M23.712,9.856v18.75 h6.75V9.856H23.712z" />
+								</g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+							</svg>
+                            <h2 class="font-light text-2xl mb-5">Website Design And Development</h2>
+                            <p class=" font-medium text-sm  tracking-wider leading-7">Web Personality & Brand Out Of An Organisation</p>
+                        </div>
+                    </a>
+                    <a href="#" class="inline-block h-full w-full py-5  ">
+                        <div class="xl:w-3/4 w-full flex flex-col justify-center border-2 border-gray-100 text-gray-600 h-full rounded-t-4xl rounded-bl-4xl px-10 py-10  bg-gradient-to-r from-white to-white hover:from-purple-400 hover:via-blue-500 hover:to-purple-800 hover:text-white">
+                            <svg class="fill-current hover:text-white w-6 mb-6" version="1.1" fill="none" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+								<g>
+									<g>
+										<g>
+											<path style="fill:#231F20;" d="M189.217,0H33.38C14.97,0,0,14.982,0,33.391v155.826c0,18.41,14.982,33.391,33.391,33.391h155.826 c18.41,0,33.391-14.982,33.391-33.391V33.391C222.609,14.982,207.627,0,189.217,0z M200.348,189.217 c0,6.133-4.998,11.13-11.13,11.13H33.391c-6.133,0-11.13-4.998-11.13-11.13V33.391c0-6.133,4.986-11.13,11.119-11.13h155.837 c6.133,0,11.13,4.998,11.13,11.13V189.217z" />
+											<path style="fill:#231F20;" d="M478.609,0H322.783c-18.41,0-33.391,14.982-33.391,33.391v155.826 c0,18.41,14.982,33.391,33.391,33.391h155.826c18.41,0,33.391-14.982,33.391-33.391V33.391C512,14.982,497.018,0,478.609,0z M489.739,189.217c0,6.133-4.986,11.13-11.13,11.13H322.783c-6.144,0-11.13-4.998-11.13-11.13V33.391 c0-6.133,4.986-11.13,11.13-11.13h155.826c6.144,0,11.13,4.998,11.13,11.13V189.217z" />
+											<path style="fill:#231F20;" d="M189.217,289.391H33.38C14.97,289.391,0,304.373,0,322.783v155.826 C0,497.018,14.982,512,33.391,512h155.826c18.41,0,33.391-14.982,33.391-33.391V322.783 C222.609,304.373,207.627,289.391,189.217,289.391z M200.348,478.609c0,6.144-4.998,11.13-11.13,11.13H33.391 c-6.133,0-11.13-4.986-11.13-11.13V322.783c0-6.144,4.986-11.13,11.119-11.13h155.837c6.133,0,11.13,4.986,11.13,11.13V478.609z" />
+											<path style="fill:#231F20;" d="M478.609,289.391H322.783c-18.41,0-33.391,14.982-33.391,33.391v155.826 c0,18.41,14.982,33.391,33.391,33.391h155.826c18.41,0,33.391-14.982,33.391-33.391V322.783 C512,304.373,497.018,289.391,478.609,289.391z M489.739,478.609c0,6.144-4.986,11.13-11.13,11.13H322.783 c-6.144,0-11.13-4.986-11.13-11.13V322.783c0-6.144,4.986-11.13,11.13-11.13h155.826c6.144,0,11.13,4.986,11.13,11.13V478.609z" />
+										</g>
+									</g>
+								</g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+								<g></g>
+							</svg>
+                            <h2 class="font-light text-2xl mb-5">Website Design And Development</h2>
+                            <p class=" font-medium text-sm  tracking-wider leading-7 ">Web Personality & Brand Out Of An Organisation</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- differenciation -->
+    <div class="md:mt-36 mt-10 mb-10 z-20 bg-gray-200  topbg">
+        <div class="text-center">
+            <h2 class="font-medium text-3xl text-gray-600 tracking-wider leading-7">What makes us different and best ?
+            </h2>
+        </div>
+        <div class="flex lg:mt-10 mt-4 flex-wrap">
+            <div class="lg:w-1/2 w-full">
+                <img src="images/creative.png" alt="">
+            </div>
+            <div class="lg:w-1/2 w-full my-auto">
+                <div class="h-full">
+                    <div class="flex items-start my-8"> <span class="border-2 border-dark rounded-full px-2 bg-transparent text-dark hover:bg-dark hover:text-white min-h-0 mr-5">1</span>
+                        <div class="text-left text-gray-500 tracking-wider leading-7  font-medium text-sm">
+                            <h2>What we Do</h2>
+                            <p class="text-gray-400">Moradiya Infotech has skilled in most recent technological Platforms over the years. We have unique Business Models with growth of Company as well as employees.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start my-8"> <span class="border-2 border-dark rounded-full px-2 bg-transparent text-dark hover:bg-dark hover:text-white min-h-0 mr-5">2</span>
+                        <div class="text-left text-gray-500 tracking-wider leading-7  font-medium text-sm">
+                            <h2>We Value our Clients</h2>
+                            <p class="text-gray-400">we value our esteem clients and thus work in a flexible environment for software development process which can be easily adjusted as per clients’ requirements.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start my-8"> <span class="border-2 border-dark rounded-full px-2 bg-transparent text-dark hover:bg-dark hover:text-white min-h-0 mr-5">3</span>
+                        <div class="text-left text-gray-500 tracking-wider leading-7  font-medium text-sm">
+                            <h2>Team satisfaction</h2>
+                            <p class="text-gray-400">We believe "Happy employee growth is directly propositional to Company Success". We have great Team of expertise in all field.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start my-8"> <span class="border-2 border-dark rounded-full px-2 bg-transparent text-dark hover:bg-dark hover:text-white min-h-0 mr-5">4</span>
+                        <div class="text-left text-gray-500 tracking-wider leading-7  font-medium text-sm">
+                            <h2>Latest Technologies</h2>
+                            <p class="text-gray-400">We always upgrade our experties with latest and most demanding technologies. Enhancement makes us more robust and knowledgable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- history -->
+    <!-- <div class="fixedbg"> -->
+    <div class="mt-36 mb-10 bg-gradient-to-r from-purple-400 via-blue-500 to-purple-800 bg-opacity-75 fixedbg">
+
+        <div class="container mx-auto">
+            <div class="flex justify-around flex-wrap ">
+                <div class="text-center lg:w-1/4 md:w-1/2 w-full">
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                    <div class="text-center transform translate-y-0 hover:transform hover:-translate-y-5 transition ease-linear delay-75">
+                        <h2 class="font-bold text-5xl text-white mt-10 mb-5 stat-number">63</h2>
+                        <h4 class="font-medium text-3xl mb-10 text-white">Website Completed</h4>
+                    </div>
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                </div>
+                <div class="text-center lg:w-1/4 md:w-1/2 w-full">
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                    <div class="text-center transform translate-y-0 hover:transform hover:-translate-y-5 transition ease-linear delay-75">
+                        <h2 class="font-bold text-5xl text-white mt-10 mb-5 stat-number">22</h2>
+                        <h4 class="font-medium text-3xl mb-10 text-white">Mobile App Completed</h4>
+                    </div>
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                </div>
+                <div class="text-center lg:w-1/4 md:w-1/2 w-full">
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                    <div class="text-center transform translate-y-0 hover:transform hover:-translate-y-5 transition ease-linear delay-75">
+                        <h2 class="font-bold text-5xl text-white mt-10 mb-5 stat-number">10</h2>
+                        <h4 class="font-medium text-3xl mb-10 text-white">Happy Customers</h4>
+                    </div>
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                </div>
+                <div class="text-center lg:w-1/4 md:w-1/2 w-full">
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                    <div class="text-center transform translate-y-0 hover:transform hover:-translate-y-5 transition ease-linear delay-75">
+                        <h2 class="font-bold text-5xl text-white mt-10 mb-5 stat-number">11</h2>
+                        <h4 class="font-medium text-3xl mb-10 text-white">Technologies Used</h4>
+                    </div>
+                    <h3 class=" w-px md:h-10 h-20 bg-white mx-auto transform rotate-90  md:transform md:rotate-0">&nbsp;
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-20 mb-20">
+        <div class="text-center">
+            <h2 class="text-3xl mb-5 text-gray-600">What Our Clients Say</h2>
+            <p class="font-medium text-sm text-gray-600 tracking-wider leading-7">We are delivering Quality since inception, naturally, our work will speak!</p>
+        </div>
+        <div class="flex flex-col items-center m-8 ">
+            <div class="w-full bg-white rounded overflow-x-hidden flex">
+                <div class="snap-start w-full h-full flex items-center justify-center  " id="slider-1">
+                    <div class="flex justify-around flex-wrap ">
+                        <div class="md:w-1/2 w-full ">
+                            <div class="flex justify-around ">
+                                <div class="flex ">
+                                    <img class="w-16 " src="images/user.svg " alt=" ">
+                                </div>
+                                <div class="text-left md:w-1/2 w-3/5 ">
+                                    <h2 class="text-gray-500 text-sm mb-px ">jeff smith</h2>
+                                    <h3 class="text-gray-500 text-base mb-5 ">-USA</h3>
+                                    <p class=" font-medium text-gray-600 text-sm tracking-wider leading-7 ">I worked with this company many times and always extremely reliable and efficient. They provided an excellent result with this job and looking forward to working with them again! HIGHLY RECOMMEND!!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-1/2 w-full ">
+                            <div class="flex justify-around ">
+                                <div class="flex ">
+                                    <img class="w-16 " src="images/user.svg " alt=" ">
+                                </div>
+                                <div class="text-left md:w-1/2 w-3/5 ">
+                                    <h2 class="text-gray-500 text-sm mb-px ">jeff smith</h2>
+                                    <h3 class="text-gray-500 text-base mb-5 ">-USA</h3>
+                                    <p class=" font-medium text-gray-600 text-sm tracking-wider leading-7 ">I worked with this company many times and always extremely reliable and efficient. They provided an excellent result with this job and looking forward to working with them again! HIGHLY RECOMMEND!!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full h-full flex items-center justify-center " id="slider-2">
+                    <div class="flex flex-wrap ">
+                        <div class="md:w-1/2 w-full ">
+                            <div class="flex justify-around ">
+                                <div class="flex ">
+                                    <img class="w-16 " src="images/user.svg " alt=" ">
+                                </div>
+                                <div class="text-left md:w-1/2 w-3/5 ">
+                                    <h2 class="text-gray-500 text-sm mb-px ">jeff smith</h2>
+                                    <h3 class="text-gray-500 text-base mb-5 ">-USA</h3>
+
+                                    <p class=" font-medium text-gray-600 text-sm tracking-wider leading-7 ">I worked with this company many times and always extremely reliable and efficient. They provided an excellent result with this job and looking forward to working with them again! HIGHLY RECOMMEND!!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-1/2 w-full ">
+                            <div class="flex justify-around ">
+                                <div class="flex ">
+                                    <img class="w-16 " src="images/user.svg " alt=" ">
+                                </div>
+                                <div class="text-left md:w-1/2 w-3/5 ">
+                                    <h2 class="text-gray-500 text-sm mb-px ">jeff smith</h2>
+                                    <h3 class="text-gray-500 text-base mb-5 ">-USA</h3>
+                                    <p class=" font-medium text-gray-600 text-sm tracking-wider leading-7 ">I worked with this company many times and always extremely reliable and efficient. They provided an excellent result with this job and looking forward to working with them again! HIGHLY RECOMMEND!!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-10 mt-8 justify-around ">
+                <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400  w-4 h-4 outline-none rounded-full pb-2 "></button>
+                <button id="sButton2" onclick="sliderButton2()" class="bg-purple-400  w-4 h-4 outline-none rounded-full pb-2 "></button>
+            </div>
+        </div>
+    </div>
+    <!-- footersection -->
+    <footer>
+        <div class="container mx-auto ">
+            <div class="flex flex-wrap ">
+                <div class="lg:w-1/3 w-full ">
+                    <img class="w-44 " src="images/logo-dark.svg " alt=" ">
+                    <p class="font-medium text-sm text-gray-600 lg:tracking-wider tracking-normal lg:leading-7 leading-4 lg:w-3/5 w-full mt-5 ">No matter how small or big the client our process and approach always remain the same. We build more than web and mobile applications. We build relationships!</p>
+                </div>
+                <div class="lg:w-2/3 w-full flex flex-wrap lg:mt-0 mt-10 ">
+                    <ul class="md:w-1/3 w-1/2 "> <span class="mx-4 font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal flex ">Helpfull
+                            Links</span>
+                        <li class="flex]=i tems-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="our_latest_work.html">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Our Work</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="aboutus.html">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">About US</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="services.html">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Services</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="#">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Contact US</a>
+                        </li>
+                    </ul>
+                    <ul class="md:w-1/3 w-1/2 "> <span class="mx-4 font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal flex ">Latest
+                            Work</span>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="# ">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Pay As You Save</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="# ">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Regents Park FC</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="# ">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Stack Music FC</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="# ">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">ClipTrax</a>
+                        </li>
+                        <li class="flex items-center justify-between ">
+                            <a class="flex items-center font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal " href="# ">
+                                <img class="w-3 mx-5 my-4 " src="images/arrow-point-to-right.svg " alt=" ">Jamarado</a>
+                        </li>
+                    </ul>
+                    <div class="md:w-1/3 w-full ">
+                        <h1 class="font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal my-2 ">
+                            Contact Us</h1>
+                        <p class="font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal my-2 ">801-802, Infinity Tower Near Railway Station, Surat, Gujrat, India - 395003</p>
+                        <h1 class="font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal my-2 ">
+                            Phone: +(91) 97 24 234 456</h1>
+                        <h1 class="font-medium text-gray-600 text-sm lg:tracking-wider lg:leading-7 leading-4 tracking-normal my-2 ">
+                            Email:<a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHHNBjlcqZPHCpJdRtjcxJnRVvDdxZHjHMmRXDTMCvSZTDFrzzCCkPmnGNJfDfZKFgQHvB " class="inline-block text-blue-800 ">meetmoradiya001@gmail.com</a></h1>
+                        <div class="flex ">
+                            <div class=" ">
+                                <a href="# " class="inline-block ">
+                                    <svg class="w-4 " aria-hidden="true " focusable="false " data-prefix="fab " data-icon="instagram " class="svg-inline--fa fa-instagram fa-w-14 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 448 512 ">
+										<path fill="#4f4c4c " d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0
+                    14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1
+                    147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7
+                    2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z "></path>
+									</svg>
+                                </a>
+                                <a href="# " class="inline-block ">
+                                    <svg aria-hidden="true " class="w-4 " focusable="false " data-prefix="fab " data-icon="facebook-square " class="svg-inline--fa fa-facebook-square fa-w-14 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0
+                    0 448 512 ">
+										<path fill="#4f4c4c " d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48
+                    48 0 0 0 48-48V80a48 48 0 0 0-48-48z "></path>
+									</svg>
+                                </a>
+                                <a href="# " class="inline-block ">
+                                    <svg aria-hidden="true " class="w-4 " focusable="false " data-prefix="fab " data-icon="google-plus-square " class="svg-inline--fa fa-google-plus-square fa-w-14 " role="img " xmlns="http://www.w3.org/2000/svg
+                    " viewBox="0 0 448 512 ">
+										<path fill="#4f4c4c " d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM164 356c-55.3 0-100-44.7-100-100s44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4-34.1
+                    0-61.9 28.2-61.9 63.2 0 34.9 27.8 63.2 61.9 63.2 39.6 0 54.4-28.5 56.8-43.1H164v-34.4h94.4c1 5 1.6 10.1 1.6 16.6 0 57.1-38.3 97.6-96 97.6zm220-81.8h-29v29h-29.2v-29h-29V245h29v-29H355v29h29v29.2z "></path>
+									</svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center font-medium text-gray-600 text-sm tracking-wider leading-7 py-8 bg-gray-100 ">© 2020 Moradiya Infotech. All Rights Reserved.</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="customjs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js "></script>
+</body>
+
+</html>

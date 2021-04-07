@@ -1,0 +1,21 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+        "prod": "NODE_ENV=production postcss src/styles.css -o public/styles.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "postcss-cli": "^8.3.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.8",
+        "tailwindcss": "^2.0.4"
+    }
+}
